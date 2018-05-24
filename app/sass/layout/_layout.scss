@@ -1,0 +1,23 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Layout styles.
+ * ----------------------------------------------------------------------------------------
+ */
+.container-main {
+	margin: 8px auto;
+	width: 988px;
+	position: relative;
+}
+ .aside-main {
+	position: fixed;
+	top: 8px;
+	width: 252px;
+
+ }
+ main.main {
+ 	width: 720px;
+ 	margin-left: 268px;
+ }
+ section:not(:first-of-type) {
+ 	margin-top: 30px;
+ }

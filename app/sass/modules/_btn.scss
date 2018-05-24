@@ -1,0 +1,17 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Component: Button
+ * ----------------------------------------------------------------------------------------
+ */
+.btn {
+	display:inline-block;
+	font-size: inherit;
+
+	&-text {
+		border: 0;
+		background: transparent;
+		color: $color-link;
+		padding: 0 10px;
+		line-height: 36px;
+	}
+}

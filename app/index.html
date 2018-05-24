@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	
+
+	<div class="container-main">
+		<aside class="aside-main">
+			<div class="block block-logo">
+				<div class="row">
+					<div class="col-auto logo">Aword</div>
+					<div class="col-auto ml-auto">
+						<div class="user-avatar img-wrap">
+							<img src="http://placehold.it/200x200" alt="" class="rounded-circle">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block block-nav">
+				<nav class="nav">
+					<ul>
+						<li class="nav__item"><a href="">Личный кабинет</a></li>
+						<li class="nav__item"><a href="">Мои задания</a></li>
+						<li class="nav__item"><a href="">Каталог</a></li>
+						<li class="nav__item"><a href="">Мои слова</a></li>
+						<li class="nav__item"><a href="">Моя статистика</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="block block-my_vocabulary">
+				<div class="row block__title-row">
+					<div class="block__title col">Мой словарь</div>
+				</div>
+			</div>
+			<div class="block block-add_word">
+				<div class="row block__title-row">
+					<div class="block__title col">Добавить слово</div>
+				</div>
+			</div>
+		</aside>
+		<main class="main page-catalog">
+			<div class="block">
+				<header class="block__header">
+					<div class="row">
+						<div class="col-auto">
+							<h1>Каталог</h1>
+						</div>
+						<div class="col-auto ml-auto row">
+							<div class="search col-auto">
+								<form action="">
+									<div class="search__wrap">
+										<input type="text" placeholder="Поиск по каталогу" class="search__input">
+										<button class="search__button icon"><svg></svg></button>
+									</div>
+								</form>
+							</div>
+							<div class="col-auto">
+								<div class="dropdown ">
+									<div class="dropdown__wrap">
+										<button class="dropdown__button dropdown-toggle" data-toggle="dropdown">Все категории</button>
+										<div class="dropdown__menu dropdown-menu">
+											<a href="" class="dropdown__item dropdown-item">link 1</a>
+											<button class="dropdown__item dropdown-item">link 2</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<section class="block__section">
+					<div class="block__content">
+						<div class="slider carousel slide" data-ride="carousel" id="catalog_slider">
+							<ul class="slider__wrap carousel-inner">
+								<li class="slider__elem carousel-item active">
+									<a href="">
+										<img class="d-block w-100" src="http://placehold.it/1000x400" alt="First slide">
+										<div class="carousel-caption">
+											<div class="slider__title">Slide title 1</div>
+											<div class="slider__subtitle">15 слов</div>
+										</div>
+									</a>
+								</li>
+								<li class="slider__elem carousel-item">
+									<a href="">
+										<img class="d-block w-100" src="http://placehold.it/1250x500" alt="Second slide">
+										<div class="carousel-caption">
+											<div class="slider__title">Slide title 2</div>
+											<div class="slider__subtitle">15 слов</div>
+										</div>
+									</a>
+								</li>
+								<li class="slider__elem carousel-item">
+									<a href="">
+										<img class="d-block w-100" src="http://placehold.it/1500x600" alt="Third slide">
+										<div class="carousel-caption">
+											<div class="slider__title">Slide title 3</div>
+											<div class="slider__subtitle">15 слов</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul class="slider__nav carousel-indicators">
+								<li data-target="#catalog_slider" class="active" data-slide-to="0"><a href=""></a></li>
+								<li data-target="#catalog_slider" data-slide-to="1"><a href=""></a></li>
+								<li data-target="#catalog_slider" data-slide-to="2"><a href=""></a></li>
+							</ul>
+						</div>
+						<div class="block__big-links">
+							<div class="row">
+								<div class="col">
+									<a href="#" class="big-link big-link--left">
+										<div class="big-link__title">Что то по типу глаголов</div>
+										<div class="big-link__subtitle">Полезные слова и прочие штуки</div>
+									</a>
+								</div>
+								<div class="col">
+									<a href="#" class="big-link big-link--right">
+										<div class="big-link__title">Что то по типу глаголов</div>
+										<div class="big-link__subtitle">Полезные слова и прочие штуки, но здесь чуть больше текста</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.block__content-->
+				</section> 
+			</div><!-- /.block-->
+			<div class="block">
+				<section class="block__section section-listcard">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">Рекомендуем</div>
+						<div class="col-auto"><button class="btn btn-text">Настроить интересы</button></div>
+						<div class="col-auto ml-auto"><button class="btn btn-text">Весь список <i></i></button></div>
+					</div>
+					<div class="block__content">
+						<div class="row">
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image card__image-empty" src="http://placehold.it/400x400" alt="Нет изображения">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="block__section section-listcard">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">Youtube от Skyeng</div>
+						<div class="col-auto ml-auto"><button class="btn btn-text">Весь список <i></i></button></div>
+					</div>
+					<div class="block__content">
+						<div class="row">
+							<div class="col-4">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="block__section section-listcard ">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">Международные экзамены</div>
+						<div class="col-auto ml-auto"><button class="btn btn-text">Весь список <i></i></button></div>
+					</div>
+					<div class="block__content">
+						<div class="row">
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="card__title">Big title, very big title and yet more bigger</div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+						</div>
+						<div class="block__big-links">
+							<div class="row">
+								<div class="col">
+									<a href="#" class="big-link big-link--left">
+										<div class="big-link__title">Что то по типу глаголов</div>
+										<div class="big-link__subtitle">Полезные слова и прочие штуки</div>
+									</a>
+								</div>
+								<div class="col">
+									<a href="#" class="big-link big-link--right">
+										<div class="big-link__title">Что то по типу глаголов</div>
+										<div class="big-link__subtitle">Полезные слова и прочие штуки, но здесь чуть больше текста</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="block__section section-blockcard">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">IT и стартапы</div>
+						<div class="col-auto ml-auto"><button class="btn btn-text">Весь список <i></i></button></div>
+					</div>
+					<div class="block__content">
+						<div class="row">
+							<div class="col-6">
+								<div class="blockcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="blockcard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">TOEFL и IELTS. Академический словарь</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="block__section section-newscard">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">Актуальные события</div>
+						<div class="col-auto ml-auto"><button class="btn btn-text">Весь список <i></i></button></div>
+					</div>
+					<div class="block__content">
+						<div class="row mx-0">
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="newscard card">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/300x300" alt="">
+									</div>
+									<div class="card__content">
+										<div class="card__title">Подготовка к TOEFL</div>
+										<div class="card__subtitle">120 слов</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

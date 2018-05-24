@@ -1,0 +1,142 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Utilities.
+ * ----------------------------------------------------------------------------------------
+ */
+
+/* Texts */
+.underline, .underlineList a {
+	border-bottom:1px solid;
+	cursor:pointer;
+}
+.underline.dashed {
+	border-bottom:1px dashed;
+}
+.underline, .underline:active, .underline:hover, .underline:focus, .underline:active:hover, .underlineList a:hover {
+	text-decoration: none;
+}
+.underline:hover, .underline:focus:hover, .underline:active:hover, .underlineList a:hover {
+	border-bottom-color: transparent!important;
+}
+.upc {
+	text-transform: uppercase;
+}
+.lowc {
+	text-transform: lowercase;
+}
+.tal {
+	text-align: left!important;
+}
+.tar {
+	text-align: right!important;
+}
+.tac {
+	text-align: center!important;
+}
+ /* Custom */
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.centerBlock {
+	margin-left:auto;
+	margin-right:auto;
+}
+.dib {
+	display:inline-block;
+	*displaY:inline;
+	*zoom:1;
+	vertical-align: middle;
+}
+.hid {
+	display:none;
+}
+.toClick {
+	cursor:pointer;
+}
+img {
+	max-width:100%;
+}
+img.anyWidth {
+	max-width:none;
+}
+.fullWidth {
+	width:100%;
+}
+.form-control {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Lists */
+ol {
+	list-style: decimal;
+}
+ol>li{
+	display:block;
+}
+ol>li:before{
+	content:counters(item,".") ". ";
+	counter-increment:item
+}
+ol{
+	counter-reset:item;
+}
+
+/* Distances */
+.mt0 {
+	margin-top:0px!important;
+}
+.mt20 {
+	margin-top:20px!important;
+}
+.mr0 {
+	margin-right:0px!important;
+}
+.mr20 {
+	margin-right:20px!important;
+}
+.mb0 {
+	margin-bottom:0px!important;
+}
+.mb20 {
+	margin-bottom:20px!important;
+}
+.ml0 {
+	margin-left:0px!important;
+}
+.ml20 {
+	margin-left:20px!important;
+}
+.moveTop10 {
+	margin-top:-10px!important;
+}
+.moveTop20 {
+	margin-top:-20px!important;
+}
+.noPadH, .noGaps {
+	padding-left:0!important;
+	padding-right:0!important;
+}
+.noPadV {
+	padding-top:0!important;
+	padding-bottom:0!important;
+}
+.noPadTop {
+	padding-top:0!important;
+}
+.noPad2Right {
+	padding-right:0!important;
+}
+.noPadBot {
+	padding-bottom:0!important;
+}
+.noPadLeft {
+	padding-left:0!important;
+}
+.noPadAll {
+	padding:0!important;
+}
+

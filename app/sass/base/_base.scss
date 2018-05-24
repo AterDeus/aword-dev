@@ -1,0 +1,42 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Base styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: $color-bg;
+	font-size: 1.6rem;
+	color: $color-text;
+}
+h1 {
+	font-size: 28px;
+	margin: 0;
+}
+.flex {
+	display: flex;
+}
+.img-wrap {
+	font-size: 0;
+
+	img {
+		max-width: 100%;
+	}
+}
+a {
+	transition: all .3s ease;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.user-avatar {
+	img {
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
+}

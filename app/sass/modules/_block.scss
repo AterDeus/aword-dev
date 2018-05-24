@@ -1,0 +1,50 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Component: Block
+ * ----------------------------------------------------------------------------------------
+ */
+ .block {
+ 	background-color: #fff;
+ 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+ 	border-radius: 6px;
+ 	margin-bottom: 16px;
+ 	padding: 20px;
+	
+	&__header {
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+		border-bottom: 2px solid $color-line;
+
+		.dropdown__button {
+			width: 200px;
+			display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		}
+	}
+	&__title {
+		font-size: 18px;
+		font-weight: 600;
+	}
+	&__title-row {
+		align-items: center;
+	}
+	&__content {
+		padding-top: 10px;
+	}
+	&__big-links {
+		margin-top: 20px;
+	}
+ 	&-logo {
+ 		color: $color-logo;
+ 		font-size: 24px; 
+ 		font-weight: bold;
+ 		line-height: 1;
+ 		padding: 15px 15px;
+ 	}
+	&-nav {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+ }

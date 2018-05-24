@@ -1,0 +1,72 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Component: Card
+ * ----------------------------------------------------------------------------------------
+ */
+
+.card {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+
+	&__image-wrap {
+ 		flex: 0 0;
+ 	}
+	&__subtitle {
+ 		color:$color-text-light-2;
+ 		font-size: 14px;
+ 	}
+ 	&.listcard {
+ 		border: 0;
+ 		flex-direction: column;
+ 		margin-bottom: 25px;
+	 	
+		.card__subtitle {
+	 		margin-top: 5px;
+	 	}
+	 	.card__image {
+	 		border-radius: 3px;
+	 		margin-bottom: 7px;
+	 	}
+    }
+    &.blockcard {
+	 	padding: 16px;
+	 	border-radius: 4px;
+	 	border: 1px solid $color-line;
+
+	 	.card__image-wrap {
+	 		flex-basis: 80px;
+	 		margin-right: 16px;
+	 	}
+	 	
+	}
+	&.newscard {
+		border: 0;
+
+		
+		.card__image-wrap {
+	 		flex-basis: 100px;
+	 		margin-right: 16px;
+
+	 	}
+	}
+}
+.section-newscard {
+	.block__content {
+		[class^=col] {
+			padding-left: 0;
+			
+			&:nth-child(even) {
+				padding-left: 16px;
+				border-left: 1px solid $color-line;
+			}
+			&:not(:nth-last-child(-n+2)) {
+				border-bottom: 1px solid $color-line;
+				padding-bottom: 16px;
+			}
+			&:not(:nth-child(-n+2)) {
+				padding-top: 16px;
+			}
+		}
+	}
+}

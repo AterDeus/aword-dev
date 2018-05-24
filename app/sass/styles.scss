@@ -1,0 +1,38 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * style.scss
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+/* Utilities */
+@import "utilities/settings";
+@import "utilities/utilities";
+
+/* Base */
+@import "base/normalize";
+@import "base/base";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
+
+/* Layout */
+@import "layout/layout";
+
+/* Modules */
+@import "modules/block";
+@import "modules/btn";
+@import "modules/forms";
+@import "modules/tables";
+@import "modules/card";
+@import "modules/slider";
+@import "modules/misc";
+
+/* Pages */
+
+
+
+
+
+
+

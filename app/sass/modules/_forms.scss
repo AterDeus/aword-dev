@@ -1,0 +1,19 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Form styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+form {
+	
+}
+.dropdown__button,
+input,
+select {
+	background: transparent;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 0 0 1px $color-input-border;
+	line-height: 36px;
+	padding: 0 12px ;
+}

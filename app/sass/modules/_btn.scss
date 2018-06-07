@@ -6,12 +6,92 @@
 .btn {
 	display:inline-block;
 	font-size: inherit;
+	cursor: pointer;
+	border: 1px solid transparent;
+	font-size: 14px;
+	border-radius: 4px;
 
 	&-text {
-		border: 0;
 		background: transparent;
 		color: $color-link;
-		padding: 0 10px;
+		margin: 0 10px;
+		padding: 0;
+		border-radius: 0;
 		line-height: 36px;
+
+		&:focus {
+			box-shadow: none;
+			border-bottom-color: currentColor;
+		}
+		&:hover {
+			color: darken($color-link, 15%);
+		}
+	}
+	&-primary,
+	&-secondary {
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.08);
+
+		&:hover {
+			border-color: transparent;
+			box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.08);
+		}
+	}
+	&-primary {
+		background-color: $color-btn-primary;
+
+		&:hover {
+			background-color: darken($color-btn-primary,10%);
+		}
+	}
+	&-secondary {
+		background-color: $color-btn-secondary;
+
+		&:hover {
+			background-color: darken($color-btn-secondary,10%);
+		}
+	}
+	&-outline {
+		background: transparent;
+		border-color: $color-input-border;
+
+		&:hover {
+			border-color: darken($color-input-border, 20%);
+		}
+
+		&--active {
+			background-color: rgba(93, 156, 236, 0.16);
+			border: solid 1px rgba(93, 156, 236, 0.64);
+			color: $color-link;
+		}
+	}
+	&s-block {
+		font-size: 0;
+
+		.btn {
+			min-width: 110px;
+			position: relative;
+			margin-left: -1px;
+
+			&:first-child {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			&:last-child {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+			&[class*=active] {
+				z-index: 20;
+			}
+		}
+	}
+	&-with-icon {
+		min-width: 125px;
+	}
+	&-larger {
+		line-height: 30px;
+		font-size: 16px;
+		font-weight: 600;
+		min-width: 190px;
 	}
 }

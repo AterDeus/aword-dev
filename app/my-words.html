@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	
+
+	<div class="container-main">
+		<aside class="aside-main">
+			<div class="block block-logo">
+				<div class="row">
+					<a href="index.html" class="col-auto logo">Aword</a>
+					<div class="col-auto ml-auto">
+						<div class="user-avatar img-wrap">
+							<img src="http://placehold.it/200x200" alt="" class="rounded-circle">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block block-nav">
+				<nav class="nav">
+					<ul>
+						<li class="nav__item"><a href="">Личный кабинет</a></li>
+						<li class="nav__item"><a href="">Мои задания</a></li>
+						<li class="nav__item"><a href="">Каталог</a></li>
+						<li class="nav__item nav__item--active"><span>Мои слова</span></li>
+						<li class="nav__item"><a href="">Моя статистика</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="block block-my_vocabulary">
+				<div class="row block__title-row">
+					<div class="block__title col">Мой словарь</div>
+				</div>
+			</div>
+			<div class="block block-add_word">
+				<div class="row block__title-row">
+					<div class="block__title col">Добавить слово</div>
+				</div>
+			</div>
+		</aside>
+		<main class="main page-catalog">
+			<div class="block">
+				<header class="block__header">
+					<div class="row">
+						<div class="col-auto">
+							<h1>Мои слова</h1>
+						</div>
+						<div class="col ml-5">
+							<div class="search">
+								<form action="">
+									<div class="search__wrap">
+										<input type="text" placeholder="Мои слова" class="search__input">
+										<button class="search__button icon"><svg></svg></button>
+									</div>
+								</form>
+							</div>
+						</div> 
+					</div>
+				</header>
+				<section class="block__section">
+					<div class="row block__title-row">
+						<div class="block__title col-auto">Мои списки</div>
+						<div class="col-auto ml-auto row">
+							<div class="btns-block col-auto">
+								<button class="btn btn-outline btn-outline--active">По дате</button>
+								<button class="btn btn-outline">По прогрессу</button>
+							</div>
+							<div class="col-auto">
+								<button class="btn btn-primary btn-with-icon">+ Создать</button>
+							</div>
+						</div>
+					</div>
+					<div class="block__content section-listcard">
+						<div class="row">
+							<div class="col-3">
+								<div class="listcard card card--can-add">
+									<div class="card__image-wrap">
+										<img class="card__image card__image-empty" src="http://placehold.it/400x400" alt="Нет изображения">
+									</div>
+									<div class="progressbar">
+									  <progress max="100" value="47" class="progressbar__control progressbar__control--yellow">
+									    <div class="progressbar__fallback">
+									      <div class="progressbar__fallback__bg" style="width:47%;"></div>
+									    </div>
+									  </progress>
+									</div>
+									<div class="card__title"><a href="">Big title, very big title and yet more bigger</a></div>
+									<div class="card__subtitle">115 слов</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card card--can-add">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="progressbar">
+									  <progress max="100" value="47" class="progressbar__control progressbar__control--green">
+									    <div class="progressbar__fallback">
+									      <div class="progressbar__fallback__bg" style="width:47%;"></div>
+									    </div>
+									  </progress>
+									</div>
+									<div class="card__title"><a href="" title="Big title, very big title and yet more bigger title and more and more!!!">Big title, very big title and yet more bigger title and more and more!!!</a></div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card card--can-add">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="progressbar">
+									  <progress max="100" value="47" class="progressbar__control progressbar__control--blue">
+									    <div class="progressbar__fallback">
+									      <div class="progressbar__fallback__bg" style="width:47%;"></div>
+									    </div>
+									  </progress>
+									</div>
+									<div class="card__title"><a href="">Big title, very big title and yet more bigger</a></div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="listcard card card--can-add">
+									<div class="card__image-wrap">
+										<img class="card__image" src="http://placehold.it/400x400" alt="">
+									</div>
+									<div class="progressbar">
+									  <progress max="100" value="47" class="progressbar__control">
+									    <div class="progressbar__fallback">
+									      <div class="progressbar__fallback__bg" style="width:47%;"></div>
+									    </div>
+									  </progress>
+									</div>
+									<div class="card__title"><a href="">Big title, very big title and yet more bigger</a></div>
+									<div class="card__subtitle">101 слово</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="d-flex"><div class="ml-auto"><button class="btn btn-text">Показать все списки <i></i></button></div></div>	
+					</div><!-- /.block__content-->
+				</section> 
+			</div><!-- /.block-->
+			<div class="block">
+				<header class="block__header">
+					<div class="row">
+						<div class="col-auto">
+							<div class="title">На изучении</div>
+						</div>
+						<div class="col-auto ml-auto">
+							<button class="btn btn-secondary btn-larger btn-with-icon">Учить слова</button>
+						</div> 
+					</div>
+				</header>
+				<section class="block__section section-wordlist">
+					<div class="section__columns">
+						<div class="section__column">
+							<div class="word-translate__word-row">
+								<div class="word-translate__word word-translate__word-checked">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_empty "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox icon__icon-checkbox-active"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_1 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_2 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">mischievousness</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_3 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_4 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+						</div>
+						<div class="section__column">
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_5 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_6 "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_full "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+							<div class="word-translate__word-row">
+								<div class="word-translate__word">
+									<div class="icon icon_inline icon_inline_left">
+										<div class="icon__icon icon__icon-state icon__icon-state_warning "></div>
+									</div> 
+									
+									<div class="word-translate__word__text">
+										<div class="icon icon_inline icon_inline_left">
+											<div class="icon__icon icon__icon-checkbox"></div>
+										</div>
+										<span lang="en">Word</span>
+									</div>
+									<div class="word-translate__icon-sound">
+										<div class="icon icon_inline">
+			 								<div class="icon__icon icon__icon-sound icon__icon-sound_blue"></div>
+			 							</div>
+		 							</div> 
+								</div>
+								<div class="word-translate__translate"><span lang="ru">Translate</span></div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="d-flex"><div class="ml-auto"><button class="btn btn-text">Показать все слова <i></i></button></div></div>
+				</section>
+				
+			</div>
+		</main>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
